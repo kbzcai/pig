@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  ~
+  ~      Copyright (c) 2018-2025, lengleng All rights reserved.
+  ~
+  ~  Redistribution and use in source and binary forms, with or without
+  ~  modification, are permitted provided that the following conditions are met:
+  ~
+  ~ Redistributions of source code must retain the above copyright notice,
+  ~  this list of conditions and the following disclaimer.
+  ~  Redistributions in binary form must reproduce the above copyright
+  ~  notice, this list of conditions and the following disclaimer in the
+  ~  documentation and/or other materials provided with the distribution.
+  ~  Neither the name of the pig4cloud.com developer nor the names of its
+  ~  contributors may be used to endorse or promote products derived from
+  ~  this software without specific prior written permission.
+  ~  Author: lengleng (wangiegie@gmail.com)
+  ~
+  -->
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pig4cloud.pig.ywzfjd.mapper.YwZfjdMapper">
+
+  <resultMap id="ywZfjdMap" type="com.pig4cloud.pig.ywzfjd.entity.YwZfjd">
+    <id property="id" column="id"/>
+    <result property="orderby" column="orderby"/>
+    <result property="responsePeople" column="response_people"/>
+    <result property="deviceName" column="device_name"/>
+    <result property="outLocation" column="out_location"/>
+    <result property="illegalTime" column="illegal_time"/>
+    <result property="videoFile" column="video_file"/>
+    <result property="illegalAction" column="illegal_action"/>
+    <result property="createTime" column="create_time"/>
+    <result property="createBy" column="create_by"/>
+    <result property="updateTime" column="update_time"/>
+    <result property="updateBy" column="update_by"/>
+    <result property="status" column="status"/>
+    <result property="caseNo" column="case_no"/>
+    <result property="caseTime" column="case_time"/>
+    <result property="caseName" column="case_name"/>
+    <result property="caseType" column="case_type"/>
+    <result property="caseOrgan" column="case_organ"/>
+    <result property="illegalStartTime" column="illegal_start_time"/>
+    <result property="illegalEndTime" column="illegal_end_time"/>
+  </resultMap>
+</mapper>
